@@ -1,0 +1,40 @@
+package CalculatorCore;
+
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class ViewCore {
+	
+	public static int FrameIDOut;
+	
+	public JFrame MainFrame = new JFrame();
+	
+	public static JPanel MainPanel = new JPanel();
+	
+	public ViewCore(String FrameName, int XSize, int YSize, int FrameID, boolean IsVisible) {
+
+		FrameIDOut = FrameID;
+	
+		MainFrame.setTitle(FrameName);
+			
+		MainFrame.add(MainPanel);	
+			
+		MainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		MainFrame.setVisible(IsVisible);
+		
+		
+		MainPanel.setPreferredSize(new Dimension(XSize, YSize));
+		
+		MainFrame.pack();
+	
+		
+		
+		
+	}
+
+	
+	
+}

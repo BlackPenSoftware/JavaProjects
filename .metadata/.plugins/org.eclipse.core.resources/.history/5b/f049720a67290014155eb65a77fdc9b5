@@ -1,0 +1,24 @@
+package CalculatorCore;
+
+import java.awt.Dimension;
+
+import javax.swing.JButton;
+
+public class ButtonCore {
+
+
+	public ButtonCore(String ButtonName, int XSize, int YSize, int XPos, int YPos, int FrameID, ViewCore VC) {
+		
+		JButton MainButton = new JButton(ButtonName);
+		
+		MainButton.setPreferredSize((new Dimension(XSize, YSize)));
+		
+		if(FrameID == VC.FrameIDOut){
+			
+			VC.FrameNameOut.add(MainButton);
+			
+		}
+		
+	}
+	
+}

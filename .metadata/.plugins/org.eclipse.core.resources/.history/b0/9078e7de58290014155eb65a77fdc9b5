@@ -1,0 +1,10 @@
+package CalculatorCore;
+
+public class ButtonCore {
+
+
+	public ButtonCore(String ButtonName, int XSize, int YSize) {
+		
+	}
+	
+}

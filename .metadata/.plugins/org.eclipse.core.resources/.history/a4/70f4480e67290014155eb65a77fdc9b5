@@ -1,0 +1,13 @@
+package CalculatorCore;
+
+public class Calculator {
+
+	public static void main(String args[]){
+		
+	new ViewCore("Calculator", 600, 700, 0, true);
+		
+
+	
+	}
+	
+}

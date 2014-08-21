@@ -1,0 +1,17 @@
+package CalculatorCore;
+
+import javax.swing.JFrame;
+
+public class Calculator {
+
+	public static void main(String args[]){
+		
+	JFrame MainFrame = new JFrame("FrameName");
+		
+		MainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		MainFrame.setVisible(true);
+		
+	}
+	
+}

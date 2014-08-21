@@ -1,0 +1,7 @@
+package CalculatorCore;
+
+public class Calculator {
+
+	new ViewCore("Simple");
+	
+}

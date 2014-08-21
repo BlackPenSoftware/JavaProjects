@@ -1,0 +1,11 @@
+package CalculatorCore;
+
+public class Calculator {
+
+	public static Calculator(String args[]){
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+package CalculatorCore;
+
+public class ButtonCore {
+
+	String ButtonName = "Button"
+	
+	public static void Button(String args[]){
+		
+		
+		
+		
+	}
+	
+}

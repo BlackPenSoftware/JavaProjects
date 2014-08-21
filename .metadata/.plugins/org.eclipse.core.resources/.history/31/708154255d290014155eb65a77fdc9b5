@@ -1,0 +1,13 @@
+package CalculatorCore;
+
+import javax.swing.JFrame;
+
+public class Calculator {
+
+	public static void main(String args[]){
+		
+	new ViewCore("Main Frame", 0, 0, 0, true);
+		
+	}
+	
+}
