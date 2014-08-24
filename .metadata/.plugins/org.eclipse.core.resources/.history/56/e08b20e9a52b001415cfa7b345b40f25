@@ -31,10 +31,7 @@ public class ViewCore {
 		
 		MainPanel.setBackground(BGColor);
 		
-		MainPanel.setLayout(null);
-		
 		MainFrame.pack();
-		
 	
 		
 		

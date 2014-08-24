@@ -21,7 +21,8 @@ public class ButtonCore {
 			
 		}
 		
-		MainButton.setBounds(XPos, YPos, XSize, YSize);
+		MainButton.setPreferredSize(new Dimension(XSize, YSize));
+		//MainButton
 		
 	}
 	

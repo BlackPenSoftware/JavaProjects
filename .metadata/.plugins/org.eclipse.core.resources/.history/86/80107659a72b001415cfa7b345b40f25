@@ -1,0 +1,38 @@
+package CalculatorCore;
+
+import java.awt.Color;
+
+public class Calculator {
+
+	int FirstNumber;
+	int SeccondNumber;
+	int OutCome;
+	
+	// 0 = null 
+	// 1 = +
+	// 2 = -
+	// 3 = /
+	// 4 = * 
+	
+	int Function = 0;	// Will Always Return a Value. Even If Zero It Still Needs To Be Displayed.
+	
+	public static void main(String args[]){
+		
+		
+	new ViewCore("Calculator", 600, 700, 0, true, Color.CYAN);
+	
+	new LabelCore(null, 0, 0, 0, 0, 0, true);
+	
+	new ButtonCore("Button", 70, 70, 20, 50, 0, true);
+	
+	
+	
+	}
+	
+	public void CalculatorSystem(){
+		
+		
+		
+	}
+	
+}

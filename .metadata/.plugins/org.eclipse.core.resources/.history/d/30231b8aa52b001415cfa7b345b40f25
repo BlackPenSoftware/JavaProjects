@@ -15,13 +15,14 @@ public class ButtonCore {
 		
 		MainButton.setVisible(IsVisible);
 		
-		if(FrameID == ViewCore.FrameIDOut){
+		if(FrameID == ViewCore.FrameIDOut && ViewCore.FrameIDOut != null){
 			
 			ViewCore.MainPanel.add(MainButton);
 			
 		}
 		
-		MainButton.setBounds(XPos, YPos, XSize, YSize);
+		MainButton.setPreferredSize(new Dimension(XSize, YSize));
+		//MainButton
 		
 	}
 	

@@ -1,0 +1,10 @@
+package CalculatorCore;
+
+public class LabelCore {
+
+	public static void LabelCore(String LabelText, int XSize, int YSize, int ZPos, int YPos, int FrameID){
+		
+		
+	}
+	
+}

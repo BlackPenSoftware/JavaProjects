@@ -1,6 +1,5 @@
 package CalculatorCore;
 
-import java.awt.Color;
 import java.awt.Dimension;
 
 import javax.swing.JFrame;
@@ -14,7 +13,7 @@ public class ViewCore {
 	
 	public static JPanel MainPanel = new JPanel();
 	
-	public ViewCore(String FrameName, int XSize, int YSize, int FrameID, boolean IsVisible, Color BGColor) {
+	public ViewCore(String FrameName, int XSize, int YSize, int FrameID, boolean IsVisible) {
 
 		FrameIDOut = FrameID;
 	
@@ -29,12 +28,7 @@ public class ViewCore {
 		
 		MainPanel.setPreferredSize(new Dimension(XSize, YSize));
 		
-		MainPanel.setBackground(BGColor);
-		
-		MainPanel.setLayout(null);
-		
 		MainFrame.pack();
-		
 	
 		
 		

@@ -1,0 +1,17 @@
+package CalculatorCore;
+
+import java.awt.Color;
+
+public class Calculator {
+
+	public static void main(String args[]){
+		
+	new ViewCore("Calculator", 600, 700, 0, true, Color.CYAN);
+		
+	new ButtonCore("Button", 70, 70, 20, 50, 0, true);
+	
+	
+	
+	}
+	
+}
